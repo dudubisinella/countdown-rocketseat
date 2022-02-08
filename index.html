@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="container">
+    <img class="borders" src="./assets/images/top-image.svg" alt="">
+    <div class="viewDate">
+        <div>
+            <h1>READY TO LAUNCH IN...</h1>
+            <div class="countdown">
+                <div>
+                    <h6>Dias</h6>
+                    <div class="number" id="day">08</div>
+                </div>
+                <div class="separator">:</div>
+                <div>
+                    <h6>Horas</h6>
+                    <div class="number" id="hour">10</div>
+                </div>
+                <div class="separator">:</div>
+                <div>
+                    <h6>Minutos</h6>
+                    <div class="number" id="minute">10</div>
+                </div>
+                <div class="separator">:</div>
+                <div>
+                    <h6>Segundos</h6>
+                    <div class="number" id="second">10</div>
+                </div>
+            </div>
+            <div class="phrase">
+                inscreva-se para saber mais sobre o lançamento
+            </div>
+            <button onclick="register()">
+                Inscreva-se
+            </button>
+        </div>
+        <img class="rocket" src="./assets/images/rocket.svg" alt="">
+    </div>
+    <img class="borders end" src="./assets/images/bottom-image.svg" alt="">
+    <script src="./script.js"></script>
+</body>
+
+</html>

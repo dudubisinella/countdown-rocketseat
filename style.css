@@ -1,0 +1,241 @@
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.viewDate {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.rocket {
+    width: 40rem;
+
+}
+
+.borders {
+    width: 100%;
+}
+
+footer {
+    background-color: #f6f6fc;
+    text-align: center;
+    color: var(--purple);
+    font-size: 11px;
+}
+
+h1 {
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.countdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 90px;
+    margin-top: 20px;
+}
+
+.countdown > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    min-width: 116px;
+    color: var(--black);
+    text-align: center;
+}
+
+.separator {
+    margin: 0 10px 10px 10px;
+    color: var(--black);
+
+}
+
+h6 {
+    font-size: 16px;
+    color: var(--light-grey);
+}
+
+.text-item {
+    margin-right: 60px;
+    font-size: 16px;
+    font-weight: 100;
+    color: var(--light-grey);
+}
+
+.text, .phrase {
+    margin-top: 20px;
+}
+
+.phrase {
+    text-align: center;
+    color: var(--light-grey);
+}
+
+
+.hour-item {
+    font-size: 72px;
+    font-weight: 100;
+    margin-right: 20px;
+    color: var(--black);
+}
+
+.text {
+    color: var(--black);
+    text-align: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    margin-left: 13.466rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    background-color: var(--purple);
+}
+
+button {
+    color: #FFFF;
+}
+
+@media (max-width: 1024px) {
+    .rocket {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .rocket {
+        margin-top: 30px;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .phrase {
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    .text-item {
+        margin-right: 43px;
+    }
+    .hour-item {
+        margin-left: 20px;
+        font-size: 46px;
+    }
+    .rocket {
+        width: 24rem;
+    }
+    button a {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width:480px) {
+    .countdown {
+        font-size:50px;
+    }
+    .number {
+        min-width:0;
+        
+    }
+    .button {
+        padding: 0.4rem 1rem;
+        margin-left: 140px;
+        margin-right: 0px;  
+    }
+    .phrase {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:425px) {
+    button  {
+        width: 156px;
+        margin-left: 9.466rem;
+    }
+}
+
+@media(max-width:375px) {
+    h1 {
+        margin-right: 20px;
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    .countdown {
+        margin-right: 20px;
+    }
+    .countdown:first-child {
+        margin-left: 10px;
+    }
+    .phrase {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .rocket {
+        width: 18rem;
+    }
+    .countdown:first-child h6 {
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:320px) {
+    h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .countdown {
+        font-size: 26px;
+        margin: 0 auto;
+    }
+    .phrase {
+        font-size: 12px;
+    }
+    button {
+        margin-top: 20px;
+        width:132px;
+        font-size: 12px;
+        margin-left: 140px;
+    }
+    .rocket {
+        width:16rem;
+    }
+}
